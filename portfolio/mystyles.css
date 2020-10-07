@@ -1,0 +1,178 @@
+
+html,
+body {
+  font-family: Palatino, "Palatino Linotype";
+  text-align:center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px){
+  nav ul{
+    text-align:center;
+  }
+  nav ul li{
+    marginL 20px;
+  }
+  .project{
+    margin: 40px 0;
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  background-color: e6c786;
+  padding: 15px;
+ 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+margin: 35px;
+  padding:15px;
+ 
+}
+
+nav ul li a:hover {
+  background-color: #a87153;
+
+}
+
+#welcome-section {
+  background: #f8e8d1;
+  min-height: 55vh;
+  padding-top: 45vh;
+  font-size: 60px;
+
+    
+
+}
+
+.intro h1 {
+ 
+  font-size: 2rem;
+}
+
+.intro p {
+  color: #a87153;
+}
+
+.workTitle {
+  font-size:60px;
+  color:  #a87153;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#projectsTop {
+  display:flex;
+ flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+#projectsBottom {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display:flex;
+ flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+#projectsTop img {
+  width: 300px;
+  height: 200px;
+  
+}
+
+#projectsBottom img {
+  width: 300px;
+  height: 200px;
+  
+}
+
+.project-tile{
+  
+  border: none;
+}
+
+#projectsTop a{
+  text-decoration: none;
+  background-color: #a87153;
+  border-radius: 25%;
+  margin-bottom: 100px;
+}
+
+#projectsBottom a{ 
+  text-decoration: none;
+  
+}
+
+.projectTitle{
+  font-size: 20px;
+  color: white;
+  padding-top: 2px;
+  border-top: solid 5px  white;
+}
+
+#contact {
+  background-color: #f8e8d1;
+  height: 200px;
+  display:flex;
+  justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile-link {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+  background-color:#f8e8d1;
+  color:black;
+  font-size: 20px;
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: 40px;
+  margin-bottom: 100px;
+  border: black solid 5px;
+}
+
+.contact-links a:hover {
+    background-color: #a87153;
+}
+
+footer{
+  background-color: #a87153;
+
+  padding: 20px;
+}
+
+footer p{
+  color: white;
+}
+
+#profile-link {
+    color:white;
+    font-size: 10px;
+}
